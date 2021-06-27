@@ -1,0 +1,21 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: mysqsforsns
+  namespace: default
+spec:
+  type: bindings.aws.sqs
+  version: v1
+  metadata:
+  - name: queueName
+    value: MySQSforSNS
+  - name: region
+    value: us-east-1
+  - name: accessKey
+    value: AKIARMVOGITWI243BVUJ
+  - name: secretKey
+    value: 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
+  - name: sessionToken
+    value: ""
+
+
