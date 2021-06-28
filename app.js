@@ -39,3 +39,4 @@ app.post('/mysqsforsns', (req, res) => {
 
 app.listen(port, () => console.log(`sqs event consumer app listening on port ${port}!`))
 
+module.exports = app;
