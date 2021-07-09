@@ -12,9 +12,9 @@ spec:
   - name: region
     value: us-east-1
   - name: accessKey
-    value: AKIARMVOGITWI243BVUJ
+    value: AK*********UJ
   - name: secretKey
-    value: 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
+    value: e*********************m
   - name: sessionToken
     value: ""
 
